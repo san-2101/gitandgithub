@@ -1,0 +1,54 @@
+  mkdir git&github
+  776  mkdir gitandgithub
+  777  cd gitandgithub/
+  778  vim sandeep.txt
+  779  ls -la
+  780  git init
+  781  ls -la
+  782  git add sandeep.txt
+  783  git status
+  784  git commit sandeep.txt
+  785  git commit -m "my first git" sandeep.txt
+  786  git status
+  787  ls
+  788  git config
+  789  git status
+  790  git remote add origin https://github.com/san-2101/gitandgithub.git
+  791  git push -u origin main
+  792  git branch -M main
+  793  git push -u origin main
+  794  git remote -v
+  795  cd
+  796  clear
+  797  cd .ssh/
+  798  ls
+  799  mkdir keys
+  800  cd keys/
+  801  ssh-keygen
+  802  cd..
+  803  cd
+  804  cd .ssh/
+  805  ls
+  806  cat id_ed25519.pub
+  807  cd
+  808  clear
+  809  cd gitandgithub/
+  810  ls -la
+  811  git push -u origin main
+  812  clear
+  813  cd gitandgithub/
+  814  ls -la
+  815  git remote add origin https://github.com/san-2101/gitandgithub.git
+  816  git branch
+  817  git push -u origin main
+  818  ssh -T git@github.com
+  819  git push -u origin main
+  820  clear
+  821  git push -u origin main
+  822  git remote -v
+  823  git remote set-url origin git@github.com/san-2101/gitandgithub.git
+  824  git push -u origin main
+  825  git remote set-url origin git@github.com:san-2101/gitandgithub.git
+  826  git push -u origin main
+  827  history
+
